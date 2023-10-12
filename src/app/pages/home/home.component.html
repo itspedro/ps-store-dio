@@ -1,5 +1,6 @@
 <div class="home__container">
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
+  <app-card
+    *ngFor="let card of cards"
+    [cardData]="card"
+  ></app-card>
 </div>

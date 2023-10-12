@@ -1,7 +1,9 @@
 <a href="https://github.com/itspedro/" class="card__container">
-  <img class="card__image" src="../../../assets/bt-5.jpg" alt="battlefield V">
-  <app-card-data></app-card-data>
+  <img class="card__image" [src]="cardData.cover" [alt]="cardData.title">
+  <app-card-data
+    [cardData]="cardData"
+  ></app-card-data>
   <app-card-label
-    cardLabel="Battlefield V"
+    [cardLabel]="cardData.label"
   ></app-card-label>
 </a>
