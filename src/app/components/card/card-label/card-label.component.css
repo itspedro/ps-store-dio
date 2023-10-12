@@ -1,0 +1,16 @@
+.card-label__container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+  right: 0;
+  background-color: #0d0d0d;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.card-label__container > p {
+  color: #fff;
+  font-weight: 300;
+  font-size: .7rem;
+}
